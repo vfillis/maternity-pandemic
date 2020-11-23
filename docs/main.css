@@ -27,8 +27,22 @@
   display: none;
 }
 
-
+/* Title image and h1 on it */
 .container {
+  position: relative; 
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  color: white; /* White text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  font-size: 60px;
+}
+
+
+.overlaycontainer {
   position: relative;
   width: 50%;
 }
@@ -52,7 +66,7 @@
   background-color: grey;
 }
 
-.container:hover .overlay {
+.overlaycontainer:hover .overlay {
   opacity: 0.8;
 }
 
