@@ -1,15 +1,20 @@
+body {
+  font-family: Geneva;
+  color: black;
+}
 
-
-/* Style the links inside the navigation bar */
-.topnav a {
+/* Style the navigation bar */
+.topnav, .topnav a {
   float: right;
+  overflow: hidden;
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  font-family: Helvetica;
+  font-size: 20px;
+  font-family: Optima;
+  /*font-weight: bold;*/
 }
 
 /* Change the color of links on hover */
@@ -17,72 +22,47 @@
   color: grey;
 }
 
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  text-decoration: underline;
-}
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
-/* Title image and h1 on it */
-.container {
+/* Title image */
+.titleimage {
   position: relative; 
+  width: 99%;
+  padding: 10px;
 }
 
-.container .content {
-  position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  color: white; /* White text */
+.heading {
+  text-align: center; 
+  color: black; 
   width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
-  font-size: 60px;
+  padding: 5px; /* Some padding */
+  font-size: 25px;
+  font-family: Optima;
 }
-
-
-.overlaycontainer {
-  position: relative;
-  width: 50%;
+.heading .subheading {
+  color: grey;
+  font-family: Optima;
+  padding: 0px;
 }
-
-.image {
-  display: block;
-  width: 50%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 50%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: grey;
-}
-
-.overlaycontainer:hover .overlay {
-  opacity: 0.8;
-}
-
 .text {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  text-align: justify; 
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 18px;
+}
+.text .firstsentence {
+  font-weight:bold;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
   text-align: center;
+  background: #ddd;
+  margin-top: 20px;
 }
-.text a {
-  text-decoration: none;
-  color: white;
-}
+
+
