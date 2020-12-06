@@ -5,12 +5,12 @@ body {
 
 /* Style the navigation bar */
 .topnav, .topnav a {
-  float: right;
+  /*float: right;*/
+  position: relative;
   overflow: hidden;
-  display: inline-block;
   color: black;
   text-align: center;
-  padding: 10px 80px;
+  padding: 20px 20px;
   text-decoration: none;
   font-size: 20px;
   font-family: Optima;
@@ -30,7 +30,8 @@ body {
 /* Title image */
 .titleimage {
   position: relative; 
-  width: 80%;
+  max-width: 80%;
+  height: auto;
   margin: 0 auto;
 }
 .titleimage .img {
@@ -41,19 +42,18 @@ body {
   text-align: center; 
   color: black; 
   width: 100%; /* Full width */
-  padding: 5px; /* Some padding */
-  font-size: 25px;
+  padding: 0px; /* Some padding */
+  font-size: 1.5vw;
   font-family: Optima;
 }
 .heading .subheading {
   color: grey;
   font-family: Optima;
-  padding: 0px;
 }
 .text {
   text-align: justify; 
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 18px;
 }
 .text .firstsentence {
@@ -67,5 +67,4 @@ body {
   background: #ddd;
   margin-top: 20px;
 }
-
 
