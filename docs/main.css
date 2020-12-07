@@ -60,6 +60,10 @@ body {
   font-weight:bold;
 }
 
+.p a {
+  color: black;
+}
+
 /* Footer */
 .footer {
   padding: 20px;
