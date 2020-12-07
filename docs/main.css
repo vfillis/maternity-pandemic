@@ -66,6 +66,8 @@ body {
 /* blockquotes */
 .quote {
   font-style: italic;
+  text-align: center;
+  
 }
 .quote .source {
   font-style: normal;
