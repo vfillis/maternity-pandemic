@@ -65,10 +65,10 @@ body {
 
 /* blockquotes */
 .quote {
-  font-weight: italic;
+  font-style: italic;
 }
 .quote .source {
-  text-decoration: none;
+  font-style: normal;
 }
 
 /* Visualisations */
