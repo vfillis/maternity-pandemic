@@ -67,13 +67,8 @@ body {
 .quote {
   font-style: italic;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.quotealternative {
-  font-style: italice;
-  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .quote .source {
