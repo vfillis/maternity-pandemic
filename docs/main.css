@@ -64,7 +64,7 @@ body {
 }
 
 /* Visualisations */
-.flourish-embed flourish-chart {
+.flourish-embed .flourish-chart {
   position:relative;
   max-width:80%;
   height: auto;
