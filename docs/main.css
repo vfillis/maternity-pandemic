@@ -67,6 +67,9 @@ body {
 .quote {
   font-weight: italic;
 }
+.quote .source {
+  text-decoration: none;
+}
 
 /* Visualisations */
 .flourish-embed {
