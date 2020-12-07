@@ -59,9 +59,15 @@ body {
 .text .firstsentence {
   font-weight:bold;
 }
-
 .text a {
   color: black;
+}
+
+/* Visualisations */
+.flourish-embed flourish-chart {
+  max-width:80%;
+  height: auto;
+  margin: 0 auto;
 }
 
 /* Footer */
