@@ -63,6 +63,11 @@ body {
   color: black;
 }
 
+/* blockquotes */
+.quote {
+  font-weight: italic;
+}
+
 /* Visualisations */
 .flourish-embed .flourish-chart {
   position:relative;
