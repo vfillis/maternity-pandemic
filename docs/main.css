@@ -65,8 +65,15 @@ body {
 
 /* Visualisations */
 .flourish-embed flourish-chart {
+  position:relative;
   max-width:80%;
   height: auto;
+  margin: 0 auto;
+}
+
+/* embeds */
+.instagram-media {
+  position: relative;
   margin: 0 auto;
 }
 
