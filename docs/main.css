@@ -66,9 +66,9 @@ body {
 /* blockquotes */
 .quote {
   font-style: italic;
-  text-align: center;
+  /* text-align: center;
   margin-left: 3%;
-  margin-right: 3%;
+  margin-right: 3%;*/
 }
 
 .quote .source {
