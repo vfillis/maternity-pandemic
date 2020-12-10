@@ -73,6 +73,7 @@ body {
 
 .quote .source {
   font-style: normal;
+  font-weight: bold;
 }
 
 /* Visualisations */
