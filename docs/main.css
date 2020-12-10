@@ -91,14 +91,14 @@ body {
 }
 
 /* images */
-.image { 
-  max-width: 50%;
+.jocelyn-image { 
+  position:relative;
+  max-height:50%;
   height: auto;
-  margin: 0 auto;
 }
-.image .img {
+/*.image .img {
   overflow: hidden;
-}
+}*/
 
 /* captions */
 .caption {
