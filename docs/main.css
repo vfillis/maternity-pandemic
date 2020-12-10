@@ -89,6 +89,22 @@ body {
   margin: 0 auto;
 }
 
+/* images */
+.image {
+  position: relative; 
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.image .img {
+  overflow: hidden;
+}
+
+/* captions */
+.caption {
+  color:grey;
+}
+
 /* Footer */
 .footer {
   padding: 20px;
