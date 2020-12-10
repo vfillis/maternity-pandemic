@@ -93,7 +93,7 @@ body {
 /* images */
 .image {
   position: relative; 
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
   margin: 0 auto;
 }
