@@ -163,27 +163,12 @@ figcaption {
   margin-top: 20%;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.ft14 {
+font-size: 44px !important;
+  color:red;
 }
 
 
