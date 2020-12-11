@@ -94,7 +94,10 @@ body {
 .jocelyn-image { 
   max-width:40%;
   float:left;
-  padding: 2%;
+  padding-left:0;
+  padding-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
 }
 /*.image .img {
   overflow: hidden;
