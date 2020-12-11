@@ -3,6 +3,26 @@ body {
   color: black;
 }
 
+#to-top {
+  display: none;
+  position: fixed;
+  bottom: 3%;
+  right: 4%;
+  z-index: 100;
+  font-size: 2em;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  padding:1%;
+  border-radius: 50%;
+}
+
+#to-top:hover {
+  background-color: #555;
+}
+
 body, html {
   height: 100%;
   margin: 0;
