@@ -58,6 +58,7 @@ h3 {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
+  margin-top:5px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
