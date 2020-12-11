@@ -135,7 +135,7 @@ body {
 /* images */
 .jocelyn-image { 
   max-width:50%;
-  float:left;
+  float:right;
   padding:3%;
 }
 /*.image .img {
