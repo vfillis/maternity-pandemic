@@ -94,12 +94,17 @@ body {
 .jocelyn-image { 
   max-width:40%;
   float:left;
-  padding: 5%;
+  padding: 2%;
 }
 /*.image .img {
   overflow: hidden;
 }*/
 
+.figcaption {
+  font-size:14px;
+  color: grey;
+}
+  
 /* captions */
 .caption {
   color:grey;
