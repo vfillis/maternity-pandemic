@@ -81,6 +81,11 @@ h3 {
   color: black;
 }
 
+.first-word {
+  font-size: 30px;
+  line-height: 70px;
+}
+
 /* Button that scrolls up to the top */
 #return-to-top {
     position: fixed;
