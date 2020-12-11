@@ -156,8 +156,7 @@ figcaption {
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 20%;
   text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+  margin-top: 20%;
 }
