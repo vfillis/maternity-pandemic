@@ -91,6 +91,8 @@ body {
 .heading .subheading {
   color: grey;
   font-family: Optima;
+  margin-top: 2%;
+  margin-bottom:2%;
 }
 .text {
   text-align: justify; 
