@@ -136,24 +136,18 @@ body {
 .jocelyn-image { 
   max-width:50%;
   float:left;
-  padding-top:1%;
-  padding-bottom:1%;
-  padding-right:2%;
-  padding-left:2%;
+  padding:3%;
 }
 /*.image .img {
   overflow: hidden;
 }*/
 
+/* captions */
 figcaption {
   font-size:14px;
   color: grey;
 }
   
-/* captions */
-.caption {
-  color:grey;
-}
 
 /* Footer */
 .footer {
