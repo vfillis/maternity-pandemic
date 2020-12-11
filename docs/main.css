@@ -92,9 +92,8 @@ body {
 
 /* images */
 .jocelyn-image { 
-  position:relative;
-  max-height:50%;
-  max-width:auto;
+  max-width:40%;
+  float:left;
 }
 /*.image .img {
   overflow: hidden;
