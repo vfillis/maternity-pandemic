@@ -1,0 +1,163 @@
+body {
+  font-family: Geneva;
+  color: black;
+}
+
+/* Title image */
+.titleimage {
+  position: relative; 
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.titleimage .img {
+  overflow: hidden;
+}
+
+.title-on-image, .h1 {
+  position: absolute;
+  top: 8%;
+  left: 2%;
+  font-size:1em;
+  font-family: Optima;
+  color: #3D3B30;
+  width:75%;
+}
+
+.subtitle-on-image, h2{
+  font-size:1.2em;
+  text-align:absolute;
+  color: #3D3B30;
+  margin-top:0.4em;
+  maring-left:10%;
+  text-weight:normal;
+}
+
+.byline{
+  font-size:1em;
+  text-align:absolute;
+  color: #3D3B30;
+  margin-top:0.5em;
+}
+
+.divider{width:65px;height:px;background:#333;margin:20px auto;}
+
+/* Button that scrolls up to the top */
+#return-to-top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+.text {
+  text-align: justify; 
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 18px;
+}
+.text .firstsentence {
+  font-weight:bold;
+}
+.text a {
+  color: black;
+}
+
+/* blockquotes */
+.quote {
+  font-style: italic;
+  /* text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;*/
+}
+
+.quote .source {
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Visualisations */
+.flourish-embed {
+  position:relative;
+  max-width:80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* embeds */
+.instagram-media {
+  position: relative;
+  margin: 0 auto;
+}
+
+/* images */
+.jocelyn-image { 
+  max-width:50%;
+  float:left;
+  padding:3%;
+}
+/*.image .img {
+  overflow: hidden;
+}*/
+
+figure {
+  margin:0;
+  border:0;
+  padding:0;
+}
+
+/* captions */
+figcaption {
+  font-size:14px;
+  color: grey;
+} 
+
+/* Footer */
+.footer {
+  padding: 20%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.ft14 {
+font-size: 44px !important;
+  color:red;
+}
