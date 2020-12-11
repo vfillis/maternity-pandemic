@@ -100,7 +100,7 @@ body {
   overflow: hidden;
 }*/
 
-.figcaption {
+figcaption {
   font-size:14px;
   color: grey;
 }
