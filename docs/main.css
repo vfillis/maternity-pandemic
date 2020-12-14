@@ -208,3 +208,8 @@ figcaption {
 font-size: 44px !important;
   color:red;
 }
+
+@media print {
+  .header {
+    position: static;
+  }
