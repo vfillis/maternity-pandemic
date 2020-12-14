@@ -218,3 +218,18 @@ font-size: 44px !important;
     content: " (" attr(href) ")";
   }
 }
+  
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    margin: 0 auto;
+  }
+}
+  
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    width: 380px;
+    margin: 0 auto;
+  }
+}
