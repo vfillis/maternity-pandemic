@@ -213,3 +213,9 @@ font-size: 44px !important;
   .header {
     position: static;
   }
+  
+ @media print {
+  a[href^="http"]:not([href*="mywebsite.com"])::after {
+    content: " (" attr(href) ")";
+  }
+}
