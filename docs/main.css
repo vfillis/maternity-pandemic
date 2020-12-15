@@ -218,6 +218,7 @@ font-size: 44px !important;
   .text {
     margin-left: 2%;
     margin-right: 2%;
+    font-size: 14px;
   }
   .flourish-embed {
   position:relative;
@@ -233,5 +234,6 @@ font-size: 44px !important;
     width: 380px;
     margin-left:2%;
     margin-right:2%;
+    font-size: 14px;
   }
 }
