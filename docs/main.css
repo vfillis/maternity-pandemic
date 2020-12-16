@@ -187,6 +187,12 @@ figcaption {
   color: grey;
 } 
 
+/* lists */
+li {
+  margin-left: 30%;
+  line-height: 120%;
+}
+
 /* Footer */
 .footer {
   padding: 20%;
