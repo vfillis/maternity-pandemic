@@ -175,6 +175,12 @@ h3 {
   padding:3%;
 }
 
+.abbi-image { 
+  width:50%;
+  float:left;
+  padding:3%;
+}
+
 figure {
   margin:0;
   border:0;
